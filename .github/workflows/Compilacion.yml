@@ -1,7 +1,5 @@
 name: my first workflow for a java project
-on:
-  push:
-    branches: [ master ]
+on: [push]
 jobs:
   publish:
     runs-on: ubuntu-latest
