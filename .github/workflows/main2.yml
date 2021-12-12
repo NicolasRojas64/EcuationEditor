@@ -9,4 +9,4 @@ jobs:
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '17'
-      - run: java -cp java Run.class
+      - run: java -cp java EcuationEditor/bin/Runner/Run.class
