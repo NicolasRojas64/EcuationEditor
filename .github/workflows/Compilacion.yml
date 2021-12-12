@@ -11,7 +11,7 @@ jobs:
       - name: Copying target jar
         run: |
           mkdir myTarget
-          cp target/*.jar myTarget
+          cp target/EcuationEditor.jar myTarget
       - name: Uploading jar
         uses: actions/upload-artifact@v2
         with:
