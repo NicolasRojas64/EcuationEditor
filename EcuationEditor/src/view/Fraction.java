@@ -13,7 +13,7 @@ import controller.ControllerListener;
 public class Fraction extends JPanel{
 	private static final long serialVersionUID = 4752706316011006325L;
 	private String denominatr;
-	private String expone;
+	private String exponent;
 	private JTextField denominatorField;
 	private JTextField exponentField;
 	private String stringRepresentation;
